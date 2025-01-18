@@ -4,6 +4,7 @@ import LandingPage from "../Pages/LandingPage";
 import Contact from "../Pages/Contact";
 import { PATH_CONTACT, PATH_HOME } from "./path";
 import { useRoutes } from "react-router-dom";
+import SignIn from "../Pages/Authentication/SignIn";
 const PageLayout = lazy(() => import("../Layouts/Layouts"));
 
 
@@ -23,8 +24,9 @@ function Router() {
                 </Suspense>
             ),
             children: [
-                { path: PATH_HOME, element: <LandingPage /> },
+                { path: "/", element: <LandingPage /> },
                 { path: PATH_CONTACT, element: <Contact /> },
+                { path: "/Sign-in", element: <SignIn /> }
             ]
         }
     ]

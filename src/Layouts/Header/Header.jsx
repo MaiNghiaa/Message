@@ -35,10 +35,19 @@ export default function Header() {
                         <a href="#" className=" text-black hover:underline py-1   text-sm  xl:text-xl 2xl:text-2xl">Contact</a>
                     </div>
                     {/* Right Section */}
-                    <div className="w-1/3 flex items-center gap-8 justify-center ">
+                    {/* <div className="w-1/3 flex items-center gap-8 justify-center ">
                         <a href="#" className="hover:underline py-1 text-sm  xl:text-xl 2xl:text-2xl">Login</a>
                         <a href="#" className=" bg-[#FB8E0B] hover:bg-[#df800b] text-white rounded-lg py-2 px-5 text-sm font-semibold xl:text-xl 2xl:text-2xl">Get Started</a>
-                    </div>
+                    </div> */}
+
+                    {/*
+                    2 cach them img neu de hinh anh trong public
+                    <img src="./vite.svg" alt="" />
+                    
+                    voi thu muc assets ben ngoai thu muc public trong src 
+                    <img src={require('../../assets/react.svg')} alt="" />
+                    */}
+                    <div>avatar</div>
                 </div>
             </nav>
         </header>
